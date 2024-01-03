@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-uppercase">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fa-lg"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active px-lg-4" href="#contact">Contact</a>
+                    <!-- <a class="nav-link px-lg-4" href="#">Experience</a> -->
+                    <a class="nav-link px-lg-4" href="#qualification">Education</a>
+                    <a class="nav-link px-lg-4" href="#projects">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---main section-->
+    <section class="main py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5">
+                    <h3><small>Hello, I'm </small><br>Drishya Raj</h3>
+                    <h6 class="pt-4">FULL STACK DEVELOPER</h6>
+                    <input type="button" value="My Work" class="bt1 mt-5 mr-3" onclick="scrollToProjects()">
+                    <input type="button" value="Qualification" class="bt2 mt-5" onClick="scrollToQualification()">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About section-->
+    <section class="about py-5">
+        <div class="container py-5">
+            <div class="row about">
+                <div class="col-lg-7">
+                    <h1>About Me</h1>
+                    <h5>FULL STACK DEVELOPER</h5>
+                    <P class="py-3">I'm <span class="font-weight-bold">Drishya Raj,</span> a dynamic professional
+                        specializing in React.js development, web design, and creative endeavors. Armed with a
+                        post-graduate degree in Computer Science, I bring less than a year of hands-on experience as a
+                        self-taught React.js Developer. My passion extends beyond coding—I'm equally dedicated to
+                        crafting visually stunning and user-friendly web applications. As a creator at heart, I thrive
+                        on bringing innovative ideas to life. Let's collaborate and turn your vision into a reality,
+                        combining technical expertise with a keen eye for design to deliver exceptional digital
+                        experiences.
+                    <div class="d-flex resume">
+                        <a href="resume/Drishya_R_Fullstack_Developer.pdf" download="Resume.pdf">
+                        <Button class="btn1 mt-5">Download RESUME</Button>
+                    </a>
+                        <a href="https://www.linkedin.com/in/drishya-raj-">
+                            <button class="btn2 mt-5">Connect</button>
+                        </a>
+                    </div>
+                  
+                  
+                </div>
+                <div class="profile-container">
+                    <img src="images/profile.jpeg" alt="profile" class="profile"/>
+                </div>
+               
+            </div>
+    </section>
+    <!-- Tech stack -->
+    <section class="tech-stack my-5">
+        <h2 class="text-center text-dark ">My Tech Stack</h2>
+        <p class="py-3 text-center ">Technologies I’ve been working with recently</p>
+        <div class="d-flex m-auto images">
+            <img src="images/vscode-icons_file-type-htmlhtml.png" alt="html" class="m-4" />
+            <img src="images/vscode-icons_file-type-css.png" alt="css" class="m-4" />
+            <img src="images/vscode-icons_file-type-js-official.png" alt="JavaScript" class="m-4" />
+            <img src="images/logos_react.png" alt="react" class="m-4" />
+            <img src="images/Vector (1).png" alt="redux" class="m-4" />
+            <img src="images/logos_bootstrap.png" alt="bootstrap" class="m-4" />
+            <img src="images/logos_sass.png" alt="sass" class="m-4" />
+            <img src="images/vscode-icons_file-type-vscode.png" alt="vscode" class="m-4" />
+            <img src="images/akar-icons_github-fill.png" alt="git" class="m-4" />
+        </div>
+
+    </section>
+    <!--Qualification-->
+    <section class="qualification py-5" id="qualification">
+        <!-- <img src="images/graduation.avif" alt="graduation" /> -->
+        <h2 class="py-3 text-center">Qualification</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 education-card">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-graduation-cap fa-2xl pb-5"></i><br>
+                        <h5 class="card-title">Master of Computer Science</h5>
+                        <p class="card-text">
+                        <p>2020 - 2022</p>
+                        Nss College Ottapalam<br>
+                        91.4 %<br>
+                        Calicut University Rank Holder<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 education-card">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-graduation-cap fa-2xl pb-5"></i><br>
+                        <h5 class="card-title">Bachelor of Computer Science</h5>
+                        <p class="card-text">
+                        <p>2017 - 2020</p>
+                        Mercy College Palakkad<br>
+                        84 %<br>
+                        First Class with Distinction<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Project section-->
+    <section class="project" id="projects">
+        <div class="container py-7">
+            <h2 class="pt-4 text-center">Projects</h2>
+            <p class="py-3 text-center text-white">Things I’ve built so far</p>
+            <div class="row">
+                <!-- Project 1:  -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/talropdesign.png" class="card-img-top" alt="talrop" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">TALROP SPACE WEBSITE DESIGN</h5>
+                            <p class="card-text">
+                                The Talrop Single-Page Web UI Design project highlights my HTML and CSS expertise. With
+                                a focus on simplicity and functionality, the engaging layout ensures a comprehensive and
+                                enjoyable user interaction—all on a well-crafted single page. Demonstrates commitment to
+                                a streamlined user experience without compromising functionality.
+                            </p>
+                            <h6 class="py-4">Tech Stack : HTML, CSS </h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/space-website/tree/master/Space">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2:  -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/patchdesign.png" class="card-img-top" alt="patch" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">PATCH WEBSITE DESIGN</h5>
+                            <p class="card-text">
+                                The Patch Website Design project demonstrates my web development skills, combining HTML
+                                for structure, SASS for styling, and jQuery for interactivity. The result is a visually
+                                stunning and responsive platform with elegant design elements. Explore the Patch website
+                                for a compelling online presence.
+                            </p>
+                            <h6>Tech Stack : HTML, Sass , jQuery</h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/patch-website">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3:  -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/bitbucketdesign.png" class="card-img-top" alt="bitbucket" />
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">BITBUCKET REDESIGN</h5>
+                            <p class="card-text">
+                                The Bitbucket Website Redesign project highlights my expertise in HTML and Sass,
+                                offering a robust structure and polished styling. The result is a fresh, modern
+                                appearance with Sass ensuring maintainability. Explore the Bitbucket Website for a
+                                seamlessly integrated, polished, and user-centric online experience
+                            </p>
+                            <h6>Tech Stack : HTML, CSS</h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/Bitbucket">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ecommerce -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/ecommerce.png" class="card-img-top" alt="ecomerce" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-COMMERCE WEBSITE</h5>
+                            <p class="card-text">
+                                Crafted an innovative e-commerce application using React, which utilized Firebase
+                                authentication for seamless user management. Integrated Redux for efficient state
+                                management, incorporated API integration for smooth data exchange, and ensured secure
+                                transactions via a reliable payment gateway.
+                            </p>
+                            <h6>Tech Stack : React, Redux, Firebase, Sass, Rest API</h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/ecommerce_website">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- chatapp -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/chatapp.png" class="card-img-top" alt="chatapp" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">CHAT APP</h5>
+                            <p class="card-text">
+                                Developed a sleek ChatApp with a strong emphasis on UI, utilizing React for a dynamic
+                                user interface, Redux for efficient state management, and Sass for polished styling.
+                                This project seamlessly blends functionality and aesthetics for an engaging chat
+                                experience
+                            </p>
+                            <h6>Tech Stack : React, Redux, Sass, Rest API</h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/ecommerce_website">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3:  -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/todo-js.png" class="card-img-top" alt="todo-js" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">TO-DO APP</h5>
+                            <p class="card-text">
+                                The To-Do App highlights my web development skills using HTML, Sass, and Vanilla
+                                JavaScript. This streamlined platform offers efficient task management, utilizing Sass
+                                for an attractive interface and pure JavaScript for dynamic features like real-time
+                                updates. Explore this responsive and feature-rich solution.
+                            </p>
+                            <h6>Tech Stack : HTML, Sass, JavaScript </h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Drishya-Raj/Bitbucket">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Credit Card Fraud Detection Using Deep Learning -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/wibbitz.png" class="card-img-top" alt="wibbitz" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">WIBBITZ</h5>
+                            <p class="card-text">
+                                Leveraging innovative design principles, this project focuses on creating visually
+                                captivating and user-centric digital content using the Wibbitz platform. Transforming
+                                ideas into engaging visual narratives for an impactful digital experience.
+                            </p>
+                            <h6>Tech Stack : HTML, Sass</h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="#">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Steganography -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="images/todo-react.png" class="card-img-top" alt="react" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">REACT_TODO</h5>
+                            <p class="card-text">
+                                A React-based todo application, seamlessly managing tasks. Offers an intuitive user
+                                interface, real-time updates, and efficient task tracking for enhanced productivity.
+                                Modern, responsive design for a seamless user experience
+                            </p>
+                            <h6>Tech Stack : React JS, Sass </h6>
+                            <div class="d-flex git">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="#">
+                                    <p class="text-dark ">View Code</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact py-5" id="contact">
+        <div class="container py-5">
+            <h2 class="text-center">Contact Me </h2>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <span><i class="fa-solid fa-location-dot  py-4"></i></span>
+                            <span>Palakkad , Kerala</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <span><i class="fa-solid fa-envelope  py-4"></i></span>
+                            <a href="drishyaraj180@gmail.com">drishyaraj180@gmail.com</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <span><i class="fa-brands fa-linkedin py-4"></i></span>
+                            <a href="https://www.linkedin.com/in/drishya-raj-">drishya-raj-</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <span><i class="fa-brands fa-github fa-xl py-4"></i></span>
+                            <a href="https://github.com/Drishya-Raj">Github</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <span><i class="fa-solid fa-phone  py-4"></i></span>
+                            <span>9544693443</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <span><i class="fa-brands fa-whatsapp py-4"></i></span>
+                            <span>9544693443</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copy Right 2023 <span>&copy </span>All Rights Reserved </p>
+    </footer>
+    <!-- Bootstrap JavaScript and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
