@@ -15,9 +15,7 @@
     text-decoration: none;
 }
 .nav-link:hover{
-    color:white;
-    background-color: black;
-    border-radius: 10px;
+    color:black;
 }
 .navbar-brand{
     color:white;
